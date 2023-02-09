@@ -1,0 +1,23 @@
+.todolist{
+  display: none;
+}
+.tdl2{
+  text-align: center;
+  background-color: palegreen;
+  margin-bottom: 0;
+}
+.tdld{
+  text-align: center;
+  background-color: pink;
+  line-height: 50px;
+}
+.tdli{
+  padding:0px;
+  margin:0px;
+  width: 300px;
+  height: 300px;
+}
+
+.tzimg{
+  width: 100px;
+}

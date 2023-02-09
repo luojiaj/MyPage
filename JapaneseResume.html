@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>ようこそ罗嘉杰のホームページへ</title>
+    <meta name="Author" content="萌音">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <!--修改网页标签的小图标-->
+    <link rel="shortcut icon" type="images/x-icon" href="./img/logo.png">
+
+    <!--css样式的引入-->
+    <link rel="stylesheet" href="./font/font_97ronkgcfew/iconfont.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/lunbo.css">
+    <link rel="stylesheet" href="./css/verification.css">
+    <link rel="stylesheet" href="./css/todolist.css">
+    <link rel="stylesheet" href="./css/baidu.css">
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/todolist.js"></script>
+    
+</head>
+<body>
+
+    <!--根盒子-->
+    <div id="root">
+
+        <!--头部logo区域-->
+        <header id="header">
+            <img src="./img/logo.png" alt="" />
+            <h1>.Designer</h1>
+            <div class="btn iconfont icon-caidan1"></div>
+        </header>
+
+        <!--主体内容部分-->
+        <div id="main">
+            <!--左侧个人信息部分-->
+            <div class="m-left">
+                <div class="m-l-personal">
+                    <section class="photo">
+                        <img class="img1" src="./img/personal/1.png" alt=""/>
+                        <img class="img2" src="./img/personal/2.png" alt=""/>
+                        <img class="img3" src="./img/personal/3.png" alt=""/>
+                    </section>
+                    <section class="name">JIE</section>
+                    <section class="profession">WEB Developer</section>
+                    <section class="contact">
+                        <a class="iconfont icon-github" href=""></a>
+                        <a class="iconfont icon-facebook" href=""></a>
+                        <a class="iconfont icon-twitter" href=""></a>
+                        <a class="iconfont icon-tubiaozhizuo-" href=""></a>
+                        <a class="iconfont icon-weixin" href=""></a>
+                    </section>
+                </div>
+                <div class="m-l-download">
+                    <a href="">DOWNLOAD CV</a>
+                </div>
+            </div>
+
+            <!--中间详细分类部分-->
+            <div class="m-center">
+                <article id="art1">
+                    <!--小标题-->
+                    <h2>いらっしゃいませ</h2>
+                    <!--介绍-->
+                    <p class="des">こんにちは！初めまして、私の名前は罗嘉杰と申します。カタカナはラカゲツです。
+                    今年22歳です。大学の時は数学専門です。今は筑波大学で修士をしています。大学の時にいろんな知識を学んでいた。主に数学と物理(光学、電磁気学、力学、量子物理学)を専攻しています。
+                    得意なところは数学モデリングと人工知能の画像処理、画像ノイズの除去、機器学習など。興味があるならばいつでも連絡してください(≧ω≦)！
+                    </p>
+                    <!--个人信息-->
+                    <div class="info">
+                        <div class="info-child info-left">
+                            <h3>personal information</h3>
+                            <ul>
+                                <li>
+                                    <p class="dt">NICKNAME</p>
+                                    <p class="dd">落葉</p>
+                                </li>
+                                <li>
+                                    <p class="dt">誕生日</p>
+                                    <p class="dd">15 Aug 1998</p>
+                                </li>
+                                <li>
+                                    <p class="dt">ADDRESS</p>
+                                    <p class="dd">茨城県つくば市筑波大学</p>
+                                </li>
+                                <li>
+                                    <p class="dt">E-MAIL</p>
+                                    <p class="dd">luijiaj88@gmail.com</p>
+                                </li>
+                                <li>
+                                    <p class="dt">PHONE</p>
+                                    <p class="dd">+81 07041450512</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="info-child info-right">
+                            <h3>languages</h3>
+                            <ul>
+                                <li>
+                                    <p class="lang"><span>Chinese</span><span>native</span></p>
+                                    <p class="level"><span class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span></p>
+                                </li>
+                                <li>
+                                    <p class="lang"><span>English</span><span>fluent</span></p>
+                                    <p class="level"><span class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span></span><span></span></p>
+                                </li>
+                                <li>
+                                    <p class="lang"><span>Japanese</span><span>Excellent</span></p>
+                                    <p class="level"><span class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span
+                                      class="active"></span><span class="active"></span><span class="active"></span><span class="active"></span><span></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--技能-->
+                    
+                </article>
+                    <div id="wrap">
+                        <input type="text" id="search"/><input type="button" id="searchInput" value="百度一下"/>
+                        <ul id="list">
+                          <!-- <li><a href="">内容</a></li>
+                          <li><a href="">内容</a></li>
+                          <li><a href="">内容</a></li> -->
+                        </ul>
+                      </div>
+                </article>
+                <article id="art3">
+                <h2>EDUCATION</h2>
+                    <ul class="edu">
+                        <li>
+                            <div class="left"><p class="time">2016 - 2020</p></div>
+                            <div class="right">
+                                <h3>湖南文理学院</h3>
+                                <p class="name">情報と計算科学科</p>
+                                <p class="name">主に数学の勉強を主とし、主な課程は高数、オペレーティング、確率論、常微分方程式などを含む。
+                                コンピュータの方面でJavaプログラムの設計、オペレーティングシステム、データ構造、アルゴリズムの分析、設計モード
+                                などの課程を勉強したことがあります。
+                                </p>
+                                <h3>筑波大学</h3>
+                                <p class="name">数理物質生命学術院 応用理工学学部</p>
+                                <p class="name">光生体イメージング、 光コヒーレンストモグラフィー、3次元偏光顕微鏡の研究
+                                研究テーマは、イメージング原理、装置化研究 (instrumentation)、画像処理、臨床応用と多岐にわたります
+                                </p>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                    <h2>WORK EXPERIENCE</h2>
+                    <ul class="work">
+                        <li>
+                            <div class="left"><p class="time">2019.3 - 2020.1</p></div>
+                            <div class="right">
+                                <h3> ctrip 旅行情報技術株式会社</h3>
+                                <p class="img"><img class="tzimg" src="./img/compony/携程.jpg" alt="携程" /></p>
+                                <p class="name">フロントエンドエンジニア</p>
+                                <p class="des">自社の Web および携帯電話クライアントのページ修正開発を行い,フロントエン
+                                ド・プログラミング言語の更新を行う。同時に新しいページを開発し,ページを更新する
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left"><p class="time">2020.4 - 2020.10</p></div>
+                            <div class="right">
+                                <h3>tanzhou株式会社</h3>
+                                <p class="img"><img class="tzimg" src="./img/compony/潭州教育.jpg" alt="潭州"/></p>
+                                <p class="name">フロント講師</p>
+                                <p class="des">潭州の教育の先端の就職の第2段階のJavaScript課程の28期の主講の先生、かつて仕事の中で系統的な学習のもとでJS、Vueとreactなどの技術の知識。同時に授業の余暇を利用してTS、Futterなどの多技術を勉強しました。</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </article>
+                <article id="art4">
+                    <h2>Honours</h2>
+                    <ul class="REFERENCES">
+                        <li>
+                            <p class="name">英語 CET6、CET4</p>
+                            <p class="name">英語 BEC 中級 B1</p>
+                            <p class="name">国家コンピュータ等級試験2級</p>
+                            <p class="name">日本語能力試験 N 2</p>
+                            <p class="name">TOEIC 710</p>
+                        </li>
+                        <li>
+                            <p class="name">国立奨学金、全国大学生革新創業一等賞奨学金、全国大学生「芙蓉学子・模範力量の学術
+                            研究」奨学金、中国電信「飞翼」奨学金、「共圆」奨学金、特等奨学金、省級先進個人や
+                            省三好学生標兵など数々の栄誉称号。</p>
+                            <p class="name">"MathorCup"数学モデリング一等賞</p>
+                            <p class="name">「数創カップ」全国数学モデリングコンテスト一等賞</p>
+                            <p class="name">全国数学モデリング省二等奖</p>
+                            <p class="name">アメリカ数学モデリングコンテスト三等賞</p>
+                            <p class="name">アジアと太平洋地域の数学モデリングコンテスト一等賞</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <p class="copy">LJJ Resume @ All Rights Reserved 2017</p>
+            </div>
+
+            <!--右侧侧边导航部分-->
+            <div class="m-right">
+                <ul>
+                    <li><a href="#art1"></a></li>
+                    <li><a href="#art2" class="iconfont icon-portfolio" href=""></a></li>
+                    <li><a href="#art3" class="iconfont icon-xiangmujingyan" href=""></a></li>
+                    <li><a href="#art4" class="iconfont icon-preferences" href=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/baidu.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
